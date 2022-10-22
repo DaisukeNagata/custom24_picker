@@ -8,8 +8,8 @@ const double _kDefaultPerspective = 0.003;
 const double _kSqueeze = 1.45;
 const double _kOverAndUnderCenterOpacity = 0.447;
 
-class Common24Picker extends StatefulWidget {
-  Common24Picker({
+class Custom24Picker extends StatefulWidget {
+  Custom24Picker({
     super.key,
     this.diameterRatio = _kDefaultDiameterRatio,
     this.backgroundColor,
@@ -32,7 +32,7 @@ class Common24Picker extends StatefulWidget {
     }
   }
 
-  Common24Picker.builder({
+  Custom24Picker.builder({
     super.key,
     this.diameterRatio = _kDefaultDiameterRatio,
     this.backgroundColor,
@@ -70,7 +70,7 @@ class Common24Picker extends StatefulWidget {
   State<StatefulWidget> createState() => _CupertinoPickerState();
 }
 
-class _CupertinoPickerState extends State<Common24Picker> {
+class _CupertinoPickerState extends State<Custom24Picker> {
   int? _lastHapticIndex;
 
   @override

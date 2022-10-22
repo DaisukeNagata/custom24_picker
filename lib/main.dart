@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 _myPageBottomPicker(
-                  Common24Picker(
+                  Custom24Picker(
                     backgroundColor: Colors.grey,
                     looping: true,
                     itemExtent: 32,
@@ -136,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     childDelegate: [
                       /// TODO: ListSet: text set and Delegate
                       ListWheelChildLoopingListDelegate(
-                          children: listYearor(9, 2022)),
+                          children: listYear(9, 2022)),
                       ListWheelChildLoopingListDelegate(children: _list(9, 12)),
                       ListWheelChildLoopingListDelegate(children: _list(9, 31)),
                       ListWheelChildLoopingListDelegate(children: _list(9, 24)),
@@ -144,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                     children: [
                       /// TODO: ListSet: text set
-                      listYearor(1989, 2022),
+                      listYear(1989, 2022),
                       _list(9, 12),
                       _list(9, 31),
                       _list(9, 24),
@@ -190,7 +190,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  List<Widget> listYearor(
+  List<Widget> listYear(
     int start,
     int index,
   ) {
