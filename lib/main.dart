@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         } else if (list.last == 3) {
                           hourSt = '${list.first + 1}';
                         } else if (list.last == 4) {
-                          minutesSt = '${list.first}';
+                          minutesSt = '${list.first + 1}';
                         }
                       });
                     },
