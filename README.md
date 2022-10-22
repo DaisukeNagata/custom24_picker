@@ -2,15 +2,10 @@
 
 A new Flutter project.
 
-## Getting Started
+## Document 
 
-This project is a starting point for a Flutter application.
+https://dbank0208.com/2022/10/23/custom24_picker/
 
-A few resources to get you started if this is your first Flutter project:
+## Example
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/16457165/197348102-50d930f8-8fde-4b9c-8ca2-e47d94048b0d.mov
